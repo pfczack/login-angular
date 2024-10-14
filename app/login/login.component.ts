@@ -19,7 +19,7 @@ export class LoginComponent {
   onLogin() {
     if (this.usuario === 'admin' && this.senha === 'senha') {
       localStorage.setItem('usuario', this.usuario);
-      this.loginSucesso.emit(); // Emite evento de sucesso
+      this.loginSucesso.emit(); 
     } else {
       this.mensagem = 'Usuário ou senha incorretos!';
     }

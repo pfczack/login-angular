@@ -9,19 +9,19 @@ body {
   margin: 0;
 }
 
-/* Container do formulário de login */
+
 div {
-  background-color: #252525; /* Fundo do formulário */
-  padding: 40px; /* Espaçamento interno */
-  border-radius: 15px; /* Bordas arredondadas */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra */
-  text-align: center; /* Centralização do texto */
-  width: 90%; /* Largura responsiva */
-  max-width: 400px; /* Largura máxima */
-  margin: auto; /* Centralização automática */
+  background-color: #252525; 
+  padding: 40px; 
+  border-radius: 15px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  text-align: center; 
+  width: 90%;
+  max-width: 400px; 
+  margin: auto; 
 }
 
-/* Input fields */
+
 input {
   width: 100%;
   padding: 12px;
@@ -35,7 +35,7 @@ input {
 
 input:focus {
   outline: none;
-  box-shadow: 0 0 5px 2px #00ffcc; /* Brilho ao focar */
+  box-shadow: 0 0 5px 2px #00ffcc; 
 }
 
 /* Botão de login */
@@ -57,7 +57,7 @@ button:hover {
   background-color: #78ffed;
 }
 
-/* Mensagem de erro */
+
 p {
   color: #ff4d4d;
   font-size: 14px;

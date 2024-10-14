@@ -12,6 +12,6 @@ export class ModalBoasVindasComponent {
   @Output() fechar = new EventEmitter<void>();
 
   onFechar() {
-    this.fechar.emit(); // Emite evento para fechar o modal
+    this.fechar.emit();
   }
 }
